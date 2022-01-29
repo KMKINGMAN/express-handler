@@ -1,0 +1,21 @@
+{
+  "name": "kmcodes-express-handler",
+  "version": "1.0.0",
+  "description": "kmcode express handler",
+  "main": "src/index.js",
+  "repository": "https://github.com/kmkingman",
+  "author": "muhammad rafat kurkar +962792914245",
+  "license": "BSL-1.0",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-json-modules src/index.js",
+    "install": "npm i",
+    "dev": "nodemon --experimental-json-modules src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "fs": "^0.0.1-security",
+    "nodemon": "^2.0.15"
+  }
+}
